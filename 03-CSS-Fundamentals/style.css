@@ -6,13 +6,13 @@ p,
 li {
     font-family: sans-serif;
     color: #444;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4 {
-        color: #1098ad;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #1098ad;
 }
 
 h1 {
@@ -43,6 +43,7 @@ p {
 li {
     font-size: 20px
 }
+
 #author {
     font-style: italic;
     font-size: 18px;
@@ -70,4 +71,11 @@ aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
+}
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
 }
