@@ -134,3 +134,7 @@ a:active {
     background-color: black;
     font-style: italic;
 }
+.post-img {
+    width: 100%;
+    height: auto;
+}
