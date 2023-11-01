@@ -3,7 +3,11 @@
     padding: 0;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
 
+}
 
 .main-header {
     background-color: #f7f7f7;
@@ -58,7 +62,7 @@ h2 {
 h3 {
     font-size: 30px;
     margin-bottom: 20px;
-        margin-top: 40px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -78,6 +82,7 @@ ol {
     margin-left: 50px;
     margin-bottom: 20px;
 }
+
 li {
     margin-bottom: 10px;
     font-size: 20px
@@ -86,6 +91,7 @@ li {
 li:last-child {
     margin-bottom: 0;
 }
+
 #author {
     font-style: italic;
     font-size: 18px;
@@ -134,6 +140,7 @@ a:active {
     background-color: black;
     font-style: italic;
 }
+
 .post-img {
     width: 100%;
     height: auto;
