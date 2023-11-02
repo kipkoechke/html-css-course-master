@@ -15,6 +15,10 @@ body {
     width: 825px;
     margin: 50px auto;
     position: relative;
+/* Grid */
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 40px;
 }
 
 .product-title {
@@ -23,6 +27,7 @@ body {
     font-weight: bold;
     text-align: center;
     padding: 15px;
+    grid-column: 1 / -1;
 }
 
 .price {
@@ -90,7 +95,8 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     border-top: 4px solid #000;
-                
+    grid-column: 1 / -1;
+
 }
 
 .add-to-cart:hover {
@@ -133,13 +139,8 @@ body {
     flex: 1;
     margin-top: 20px;
 }
-/* FLEXBOX */
-.container {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-}
 
+/* FLEXBOX */
 .product-price {
     display: flex;
     justify-content: space-between;
