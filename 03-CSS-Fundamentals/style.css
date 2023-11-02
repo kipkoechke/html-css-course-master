@@ -13,7 +13,6 @@
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
-    margin-bottom: 40px;
 }
 
 nav {
@@ -24,16 +23,13 @@ nav {
     margin-bottom: 40px;
 }
 
-article {
-    margin-bottom: 60px;
-}
+
 
 aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
     padding: 50px 40px;
-    margin-bottom: 60px;
 }
 
 body {
@@ -272,7 +268,8 @@ footer {
     color: #444;
 }
 
-.row {
+/* FLEXBOX */
+/* .row {
     display: flex;
     gap: 75px;
     margin-bottom: 60px;
@@ -288,4 +285,21 @@ aside {
     flex: 0 0 300px;
     margin-bottom: 0;
 
+}
+*/ .container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    column-gap: 75px;
+    row-gap: 60px;
+
+    align-items: start;
+}
+
+.main-header {
+    grid-column: 1 / -1;
+
+}
+
+footer {
+    grid-column: 1 / -1;
 }
