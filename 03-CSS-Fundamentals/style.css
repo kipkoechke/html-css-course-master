@@ -145,3 +145,14 @@ a:active {
     width: 100%;
     height: auto;
 }
+nav a:link {
+    background-color: #f4b23f;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+nav a:link:last-child {
+    margin-right: 0;
+}
