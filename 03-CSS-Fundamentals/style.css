@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 
 }
@@ -31,7 +32,7 @@ aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
+    padding: 50px 40px;
     margin-bottom: 60px;
 }
 
@@ -72,6 +73,7 @@ h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 p {
@@ -112,6 +114,7 @@ li:last-child {
 
 .related {
     list-style: none;
+    margin-left: 0;
 }
 
 
@@ -150,7 +153,6 @@ a:active {
 }
 
 nav a:link {
-    background-color: #f4b23f;
     display: inline-block;
     margin-right: 30px;
     margin-top: 10px;
@@ -170,6 +172,7 @@ button {
     bottom: 50px;
     right: 50px;
 }
+
 h1::first-letter {
     font-style: normal;
     margin-right: 5px;
@@ -187,6 +190,7 @@ h2::after {
     top: -10px;
     right: -25px;
 }
+
 /* FLOATS */
 
 .author-img {
@@ -207,8 +211,22 @@ h1 {
 nav {
     float: right;
 }
-.clearfix {
+.clearfix::after {
     content: '';
     display: block;
+    clear: both;
+}
+article {
+    width: 825px;
+    float: left;
+}
+
+aside {
+    width: 300px;
+    float: right;
+}
+
+footer {
+    background-color: #ffff00;
     clear: both;
 }
