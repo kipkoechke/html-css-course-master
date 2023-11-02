@@ -207,3 +207,8 @@ h1 {
 nav {
     float: right;
 }
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
