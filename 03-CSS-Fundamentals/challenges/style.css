@@ -28,16 +28,13 @@ body {
 .price {
     font-size: 22px;
     font-weight: bold;
-    float: left;
 }
 
 .shipping {
     color: #777;
     font-size: 12px;
     text-transform: uppercase;
-    margin-top: 8px;
-    margin-bottom: 20px;
-    float: right;
+    font-weight: bold;
 }
 
 .sale {
@@ -51,16 +48,16 @@ body {
     top: -15px;
     left: -25px;
 }
+
 .description {
     margin-bottom: 10px;
-    clear: both;
 }
 
 .more-info:link,
 .more-info:visited {
     color: #000;
     display: inline-block;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .more-info:hover,
@@ -93,19 +90,18 @@ body {
     text-transform: uppercase;
     cursor: pointer;
     border-top: 4px solid #000;
+                
 }
 
 .add-to-cart:hover {
     background-color: #fff;
     color: #000;
 }
+
 .color {
     width: 22px;
     height: 22px;
     background-color: black;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    display: inline-block;
 }
 
 .blue-color {
@@ -127,21 +123,31 @@ body {
 .brown-color {
     background-color: #a52a2a;
 }
-/* FLOATS */
-.product-img {
-    float: left;
-    margin-right: 40px;
-}
 
 .product-sale {
-    width: 243px;
-    float: left;
-    margin-right: 40px;
+    flex: 1;
     margin-top: 20px;
 }
 
 .product-prop {
-    float: left;
-    width: 243px;
+    flex: 1;
     margin-top: 20px;
+}
+/* FLEXBOX */
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-colors {
+    display: flex;
+    gap: 10px;
 }
