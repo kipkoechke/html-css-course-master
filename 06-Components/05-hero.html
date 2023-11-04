@@ -16,30 +16,61 @@
                 padding: 0;
                 box-sizing: border-box;
             }
-        
+
             .container {
                 margin: 0 auto;
                 width: 1200px;
             }
-        
+
             body {
                 font-family: 'Rubik', sans-serif;
+                color: #444;
                 line-height: 1;
             }
-        
-        
-        
+
+            header {
+                background-color: aqua;
+                height: 100vh;
+            }
+
             nav {
-                font-size: 24px;
-                font-weight: 600;
+                font-size: 20px;
+                font-weight: 700;
+                padding: 24px;
                 display: flex;
                 justify-content: space-between;
             }
-        
+
             h1 {
                 font-size: 52px;
-                margin-bottom: 44px;
-                font-weight: 700;
+                margin-bottom: 32px;
+            }
+
+            h2 {
+                font-size: 44px;
+                margin-bottom: 48px;
+            }
+
+            p {
+                font-size: 20px;
+                margin-bottom: 48px;
+                line-height: 1.6;
+            }
+
+            .btn:link,
+            .btn:visited {
+                font-size: 20px;
+                font-weight: 600;
+                display: inline-block;
+                text-decoration: none;
+                background-color: #e67e22;
+                color: #fff;
+                padding: 16px 32px;
+                border-radius: 9px;
+                margin-bottom: 32px;
+            }
+            section{
+                padding: 96px 0;
             }
         </style>
     </head>
@@ -56,17 +87,18 @@
                     The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
                     personal tastes and needs.
                 </p>
-                <a href="#">Start eating well</a>
+                <a href="#" class="btn">Start eating well</a>
             </div>
         </header>
         <section>
             <div class="container">
                 <h2>Some extra reading</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus reiciendis nemo
-                    blanditiis
-                    amet fugiat, aliquid facere tempore quas, consequuntur sunt iusto quis fugit magni porro consectetur
-                    qui
-                    ut fuga?</p>
+                    blanditiis amet fugiat, aliquid facere tempore quas, consequuntur sunt iusto quis fugit magni porro
+                    consectetur
+                    qui ut fuga? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae distinctio delectus
+                    adipisci illum doloremque provident qui beatae, sequi perferendis aliquam odio totam obcaecati nemo
+                    quisquam laboriosam facilis, dolorem veritatis ipsa!</p>
             </div>
         </section>
     </body>
