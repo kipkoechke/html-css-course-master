@@ -4,16 +4,53 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@300&family=Rubik:wght@400;600;700&display=swap"
+            rel="stylesheet">
         <title>Omnifood Hero Section</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+            .container {
+                margin: 0 auto;
+                width: 1200px;
+            }
+        
+            body {
+                font-family: 'Rubik', sans-serif;
+                line-height: 1;
+            }
+        
+        
+        
+            nav {
+                font-size: 24px;
+                font-weight: 600;
+                display: flex;
+                justify-content: space-between;
+            }
+        
+            h1 {
+                font-size: 52px;
+                margin-bottom: 44px;
+                font-weight: 700;
+            }
+        </style>
     </head>
 
     <body>
         <header>
-            <nav>
+            <nav class="container">
                 <div>LOGO</div>
                 <div>NAVIGATION</div>
             </nav>
-            <div>
+            <div class="container">
                 <h1>A healthy meal delivered to your door, every single day.</h1>
                 <p>
                     The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
@@ -23,10 +60,14 @@
             </div>
         </header>
         <section>
-            <h2>Some extra reading</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus reiciendis nemo blanditiis
-                amet fugiat, aliquid facere tempore quas, consequuntur sunt iusto quis fugit magni porro consectetur qui
-                ut fuga?</p>
+            <div class="container">
+                <h2>Some extra reading</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores doloribus reiciendis nemo
+                    blanditiis
+                    amet fugiat, aliquid facere tempore quas, consequuntur sunt iusto quis fugit magni porro consectetur
+                    qui
+                    ut fuga?</p>
+            </div>
         </section>
     </body>
 
